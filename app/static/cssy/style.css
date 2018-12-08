@@ -1,0 +1,17 @@
+.container {
+    margin-top: 1%;
+    background: #777777;
+    height: 40%;
+    border: 3px, solid, #333333
+    
+}
+.container-item {
+    text-align: center;
+    padding-top: 1%;
+    font-family: 'Gamja Flower', cursive;
+    font-size: 2rem;
+    color: #cccccc
+}
+body {
+    background: #515151
+}
