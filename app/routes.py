@@ -9,5 +9,8 @@ def index():
 @app.route('/galeria')
 def getGalery():
     return render_template('galeria.html')
+@app.route('/alexa')
+def alexaTime():
+    return render_template('alexa.html')
 
 
