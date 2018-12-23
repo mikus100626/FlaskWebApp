@@ -10,7 +10,7 @@ def index():
 def getGalery():
     return render_template('galeria.html')
 @app.route('/alexa')
-def alexaTime():
+def alexa():
     return render_template('alexa.html')
-
+#debug true nie chcem na produkcji 
 
