@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='./cssy/alexa.css')}}">
 {% endblock %}
 {% block content %}
+
     <main>
         <div id="stan">Rozpocznij nasłuchiwanie</div>
         <div id="result"></div>
@@ -18,4 +19,5 @@
     {% block scripts %}
     <script src="{{ url_for('static', filename='skills.js') }}"></script>
     <script src="{{ url_for('static', filename='alexa.js') }}"></script>
+    
     {% endblock %}

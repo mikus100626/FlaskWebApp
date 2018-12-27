@@ -1,35 +1,24 @@
-.container {
-    margin-top: 1%;
-    background: #777777;
-    height: 40%;
-    border: 3px, solid, #333333
-    
-}
-.container-item {
-    text-align: center;
-    padding-top: 1%;
-    font-family: 'Gamja Flower', cursive;
-    font-size: 2rem;
-    color: #cccccc
-}
+
 body {
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
     background-color: rgb(128, 128, 128)
    
 }
 main {
-    width: 60vw;
-    height: 40vh;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border-right: 10px #4CAF50 solid;
     border-left: 10px #4CAF50 solid;
     
 }
 #stan, #confidence, #result  {
     margin: 0;
-    height: 10vh;
+    
 
     font-size: 5rem;
     font-family: 'Righteous', cursive;
